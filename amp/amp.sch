@@ -3599,7 +3599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="V1" library="tubes" deviceset="6922-P" device=""/>
 <part name="Q2" library="my" deviceset="BC556" device=""/>
 <part name="Q4" library="my" deviceset="BC556" device=""/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="20k"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="16k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="Q3" library="transistor-npn" deviceset="BC547*" device=""/>
@@ -3608,7 +3608,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7000" value="2N7000"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.7k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="Q7" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q6" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
@@ -3616,7 +3616,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q9" library="my" deviceset="IRF510" device=""/>
 <part name="Q10" library="my" deviceset="IRF510" device=""/>
 <part name="Q8" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.3"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.6"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
@@ -3643,7 +3643,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="V2" library="tubes" deviceset="6922-P" device=""/>
 <part name="Q11" library="my" deviceset="BC556" device=""/>
 <part name="Q12" library="my" deviceset="BC556" device=""/>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="20k"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="16k"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="Q13" library="transistor-npn" deviceset="BC547*" device=""/>
@@ -3652,7 +3652,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q15" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7000" value="2N7000"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.7k"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="Q16" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q17" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
@@ -3660,7 +3660,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q18" library="my" deviceset="IRF510" device=""/>
 <part name="Q19" library="my" deviceset="IRF510" device=""/>
 <part name="Q20" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.3"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.6"/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
