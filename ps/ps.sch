@@ -7670,11 +7670,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X3" library="con-wago-508" deviceset="W237-05P" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1W" value="3.4/1W"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="6.8/0.5W"/>
 <part name="U4" library="my" deviceset="LM317" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R14" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="6.8/0.5W"/>
 </parts>
 <sheets>
 <sheet>
@@ -7780,6 +7781,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="J1" gate="G$1" x="99.06" y="200.66"/>
 <instance part="GND24" gate="1" x="109.22" y="200.66" rot="R90"/>
 <instance part="R14" gate="G$1" x="119.38" y="203.2"/>
+<instance part="R15" gate="G$1" x="248.92" y="170.18"/>
 </instances>
 <busses>
 </busses>
@@ -8364,13 +8366,21 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="256.54" y1="160.02" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
 <junction x="256.54" y="160.02"/>
 <label x="259.08" y="160.02" size="1.778" layer="95" xref="yes"/>
+<wire x1="256.54" y1="160.02" x2="256.54" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="170.18" x2="254" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U4" gate="U1" pin="VO"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="160.02" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="160.02" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<junction x="241.3" y="160.02"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="170.18" x2="243.84" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">

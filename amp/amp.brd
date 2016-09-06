@@ -171,8 +171,6 @@
 <text x="43.18" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
 <text x="53.975" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
 <text x="64.135" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
-<dimension x1="0" y1="80.01" x2="49.53" y2="80.01" x3="24.765" y3="85.09" textsize="1.27" layer="47"/>
-<dimension x1="0" y1="80.01" x2="21.59" y2="80.01" x3="10.795" y3="82.55" textsize="1.27" layer="47"/>
 </plain>
 <libraries>
 <library name="my">
