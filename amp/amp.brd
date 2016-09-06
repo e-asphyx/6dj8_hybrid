@@ -155,7 +155,7 @@
 <wire x1="99.06" y1="80.01" x2="99.06" y2="0" width="0.254" layer="20"/>
 <wire x1="99.06" y1="0" x2="0" y2="0" width="0.254" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="80.01" width="0.254" layer="20"/>
-<dimension x1="0" y1="80.01" x2="0" y2="0" x3="-5.08" y3="40.005" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="80.01" x2="0" y2="0" x3="-5.08" y3="40.005" textsize="1.27" layer="47"/>
 <text x="33.02" y="68.58" size="1.27" layer="21" font="vector" ratio="15">INL</text>
 <text x="17.78" y="68.58" size="1.27" layer="21" font="vector" ratio="15">H+</text>
 <text x="21.59" y="68.58" size="1.27" layer="21" font="vector" ratio="15">H-</text>
@@ -166,11 +166,13 @@
 <text x="43.18" y="10.16" size="1.27" layer="21" font="vector" ratio="15">OUTL</text>
 <text x="53.34" y="10.16" size="1.27" layer="21" font="vector" ratio="15">OUTR</text>
 <text x="80.01" y="44.45" size="0.8128" layer="21" font="vector" ratio="15">1.3V</text>
-<dimension x1="0" y1="80.01" x2="99.06" y2="80.01" x3="49.53" y3="85.09" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="80.01" x2="99.06" y2="80.01" x3="49.53" y3="87.63" textsize="1.27" layer="47"/>
 <text x="27.94" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
 <text x="43.18" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
 <text x="53.975" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
 <text x="64.135" y="68.58" size="1.27" layer="21" font="vector" ratio="15">GND</text>
+<dimension x1="0" y1="80.01" x2="49.53" y2="80.01" x3="24.765" y3="85.09" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="80.01" x2="21.59" y2="80.01" x3="10.795" y3="82.55" textsize="1.27" layer="47"/>
 </plain>
 <libraries>
 <library name="my">
@@ -922,7 +924,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.715" y="51.435" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="7.874" y="49.149" size="0.8128" layer="21" font="vector" ratio="15"/>
 </element>
-<element name="V1" library="tubes" package="NOVAL" value="" x="26.67" y="57.15" smashed="yes" rot="R90">
+<element name="V1" library="tubes" package="NOVAL" value="6922" x="26.67" y="57.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.354" y="65.532" size="0.8128" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="43.688" y="53.086" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -1031,7 +1033,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.18" y="0.762" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="43.18" y="0.762" size="0.8128" layer="25" ratio="15"/>
 </element>
-<element name="V2" library="tubes" package="NOVAL" value="" x="72.39" y="57.15" smashed="yes" rot="R90">
+<element name="V2" library="tubes" package="NOVAL" value="6922" x="72.39" y="57.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.534" y="68.072" size="0.8128" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="89.408" y="53.086" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>

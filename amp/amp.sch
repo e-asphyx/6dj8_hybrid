@@ -3596,7 +3596,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="V1" library="tubes" deviceset="6922-P" device=""/>
+<part name="V1" library="tubes" deviceset="6922-P" device="" value="6922"/>
 <part name="Q2" library="my" deviceset="BC556" device=""/>
 <part name="Q4" library="my" deviceset="BC556" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="16k"/>
@@ -3640,7 +3640,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X4" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="X5" library="con-wago-508" deviceset="W237-3E" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="V2" library="tubes" deviceset="6922-P" device=""/>
+<part name="V2" library="tubes" deviceset="6922-P" device="" value="6922"/>
 <part name="Q11" library="my" deviceset="BC556" device=""/>
 <part name="Q12" library="my" deviceset="BC556" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="16k"/>
@@ -3682,10 +3682,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="48.26" y="76.2" size="1.778" layer="91">2mA</text>
-<text x="106.68" y="111.76" size="1.778" layer="91">20mA</text>
-<text x="162.56" y="114.3" size="1.778" layer="91">250mA</text>
-<text x="43.18" y="101.6" size="1.778" layer="91">1.3V</text>
+<text x="48.26" y="76.2" size="1.778" layer="97">2mA</text>
+<text x="106.68" y="104.14" size="1.778" layer="97">20mA</text>
+<text x="162.56" y="114.3" size="1.778" layer="97">160mA</text>
+<text x="43.18" y="101.6" size="1.778" layer="97">1.3V</text>
+<text x="50.8" y="172.72" size="1.778" layer="97">+60V</text>
+<text x="160.02" y="170.18" size="1.778" layer="97">+10V</text>
+<text x="160.02" y="88.9" size="1.778" layer="97">-10V</text>
+<text x="50.8" y="12.7" size="1.778" layer="97">-10V</text>
+<text x="114.3" y="88.9" size="1.778" layer="97">-10V</text>
+<text x="101.6" y="167.64" size="1.778" layer="97">+60V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="5.08" y="5.08"/>
