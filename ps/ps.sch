@@ -170,20 +170,48 @@
 <text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<package name="SOT-89">
+<description>SOT98 Emitter Collector Basis</description>
+<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<smd name="1" x="-1.524" y="-1.905" dx="0.8" dy="1.4" layer="1"/>
+<smd name="3" x="1.524" y="-1.905" dx="0.8" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="-1.651" dx="0.8" dy="1.9" layer="1" stop="no" cream="no"/>
+<smd name="PAD" x="0" y="0.94" dx="2.032" dy="3.65" layer="1" roundness="75"/>
+<text x="-1.905" y="3.175" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-3.81" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
+<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
+<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
+<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
+<rectangle x1="-0.5" y1="-2.78" x2="0.5" y2="-1.18" layer="29"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3208"/>
+<vertex x="-0.7874" y="1.5748"/>
+<vertex x="-0.3556" y="2.0066"/>
+<vertex x="0.3048" y="2.0066"/>
+<vertex x="0.3556" y="2.0066"/>
+<vertex x="0.7874" y="1.5748"/>
+<vertex x="0.7874" y="1.2954"/>
+<vertex x="-0.7874" y="1.2954"/>
+</polygon>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.905" layer="39"/>
+<wire x1="2.5" y1="-1.27" x2="2.1" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.27" x2="0.6" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-1.27" x2="-1" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-1.27" x2="-2.5" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="1.905" x2="-2.5" y2="1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="1.2" y2="1.905" width="0.127" layer="21"/>
 </package>
 <package name="TO220-5">
 <description>&lt;b&gt;Molded Package&lt;/b&gt;</description>
@@ -405,16 +433,22 @@ grid 2.54 mm</description>
 <pin name="E" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
-<symbol name="LM3480IM4">
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-0.254" y="5.842" size="1.778" layer="94">&gt;NAME</text>
-<text x="-11.43" y="5.842" size="1.778" layer="94">&gt;VALUE</text>
-<pin name="IN" x="-12.7" y="0" length="middle"/>
-<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<symbol name="PMIC-CJ*1117">
+<text x="-7.62" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="-7.62" length="short" rot="R90"/>
+<pin name="IN" x="-11.43" y="0" length="short"/>
+<pin name="OUT" x="11.43" y="0" length="short" rot="R180"/>
+<wire x1="-7.62" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-3.81" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="8.89" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="OP-AMP+-">
 <wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
@@ -470,16 +504,16 @@ grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM3480IM4" prefix="U">
-<description>Small package linear regulator</description>
+<deviceset name="L78L12ACUTR" prefix="U" uservalue="yes">
+<description>310030095</description>
 <gates>
-<gate name="G$1" symbol="LM3480IM4" x="0" y="0"/>
+<gate name="G$1" symbol="PMIC-CJ*1117" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-3">
+<device name="" package="SOT-89">
 <connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2 PAD"/>
+<connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <technologies>
@@ -9900,7 +9934,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="Q2" library="my" deviceset="NPN-D" device=""/>
 <part name="Q1" library="my" deviceset="NPN-D" device=""/>
 <part name="U3" library="Texas Instruments_By_element14_Batch_1" deviceset="TLC555CD" device=""/>
-<part name="U1" library="my" deviceset="LM3480IM4" device=""/>
+<part name="U1" library="my" deviceset="L78L12ACUTR" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="&quot;" value="1.0uF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9909,7 +9943,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10NF/10000PF-50V-10%(0603)" device="" value="10nF"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="4.7K"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="470PF-50V-5%(0603)" device="SMD" value="470pF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="15KOHM1/10W1%(0603)" device="0603" value="15K"/>
@@ -10105,7 +10139,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="VDD"/>
 <wire x1="53.34" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
@@ -10125,6 +10159,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="38.1" y1="66.04" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -10576,7 +10611,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="73.66" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="22.86" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="26.67" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
 <junction x="22.86" y="76.2"/>
 <label x="20.32" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
