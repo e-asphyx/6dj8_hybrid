@@ -353,9 +353,9 @@ grid 2.54 mm</description>
 <wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
 <wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
 <circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="G" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="D" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="S" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
 <text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
@@ -553,7 +553,7 @@ grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRF510" prefix="Q">
+<deviceset name="IRF610" prefix="Q">
 <description>&lt;b&gt;HEXFET Power MOSFET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MFNS" x="0" y="0"/>
@@ -561,9 +561,9 @@ grid 2.54 mm</description>
 <devices>
 <device name="" package="TO220BV">
 <connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3613,14 +3613,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q6" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
-<part name="Q9" library="my" deviceset="IRF510" device=""/>
-<part name="Q10" library="my" deviceset="IRF510" device=""/>
+<part name="Q9" library="my" deviceset="IRF610" device=""/>
+<part name="Q10" library="my" deviceset="IRF610" device=""/>
 <part name="Q8" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.6"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="620"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2K"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IC1" library="linear" deviceset="OPA2*" device="PA" technology="134"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
@@ -3657,14 +3657,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q17" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
-<part name="Q18" library="my" deviceset="IRF510" device=""/>
-<part name="Q19" library="my" deviceset="IRF510" device=""/>
+<part name="Q18" library="my" deviceset="IRF610" device=""/>
+<part name="Q19" library="my" deviceset="IRF610" device=""/>
 <part name="Q20" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.6"/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
-<part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="620"/>
+<part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2K"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
 <part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
@@ -3678,6 +3678,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R32" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="500"/>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
+<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -3752,6 +3754,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LOGO1" gate="G$1" x="193.04" y="38.1"/>
 <instance part="R31" gate="R?" x="45.72" y="30.48" rot="R270"/>
 <instance part="TP2" gate="G$1" x="53.34" y="91.44"/>
+<instance part="R33" gate="G$1" x="139.7" y="152.4" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4032,8 +4035,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="96.52" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="134.62" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <junction x="96.52" y="134.62"/>
-<pinref part="Q9" gate="G$1" pin="G"/>
-<wire x1="121.92" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -4208,6 +4211,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="45.72" y1="35.56" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="Q9" gate="G$1" pin="G"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -4257,6 +4267,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="V2" gate="&quot;" x="104.14" y="63.5"/>
 <instance part="R32" gate="R?" x="73.66" y="35.56" rot="R270"/>
 <instance part="TP1" gate="G$1" x="81.28" y="93.98"/>
+<instance part="R34" gate="G$1" x="167.64" y="157.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4477,8 +4488,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="124.46" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="139.7" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
 <junction x="124.46" y="139.7"/>
-<pinref part="Q18" gate="G$1" pin="G"/>
-<wire x1="149.86" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -4605,6 +4616,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R32" gate="R?" pin="CCW"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="Q18" gate="G$1" pin="G"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
