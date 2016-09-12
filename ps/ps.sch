@@ -11101,7 +11101,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="X3" library="con-wago-508" deviceset="W237-05P" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="6.8/0.5W"/>
 <part name="U4" library="my" deviceset="LM317" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="NE-2"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="6.8/0.5W"/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="100u">

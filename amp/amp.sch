@@ -3693,7 +3693,7 @@ grid 2.54 mm</description>
 <part name="Q9" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q10" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q8" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.6"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="2.4"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
@@ -3737,7 +3737,7 @@ grid 2.54 mm</description>
 <part name="Q18" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q19" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q20" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="3.6"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="2.4"/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
@@ -3763,7 +3763,7 @@ grid 2.54 mm</description>
 <plain>
 <text x="48.26" y="76.2" size="1.778" layer="97">2mA</text>
 <text x="106.68" y="104.14" size="1.778" layer="97">20mA</text>
-<text x="162.56" y="114.3" size="1.778" layer="97">160mA</text>
+<text x="162.56" y="114.3" size="1.778" layer="97">250mA</text>
 <text x="43.18" y="101.6" size="1.778" layer="97">1.3V</text>
 <text x="50.8" y="172.72" size="1.778" layer="97">+60V</text>
 <text x="160.02" y="170.18" size="1.778" layer="97">+10V</text>
@@ -4300,8 +4300,8 @@ grid 2.54 mm</description>
 <sheet>
 <plain>
 <text x="76.2" y="81.28" size="1.778" layer="91">2mA</text>
-<text x="134.62" y="116.84" size="1.778" layer="91">20mA</text>
-<text x="190.5" y="119.38" size="1.778" layer="91">250mA</text>
+<text x="134.62" y="116.84" size="1.778" layer="97">20mA</text>
+<text x="190.5" y="119.38" size="1.778" layer="97">250mA</text>
 <text x="71.12" y="106.68" size="1.778" layer="91">1.3V</text>
 </plain>
 <instances>
