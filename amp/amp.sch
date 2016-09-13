@@ -2821,6 +2821,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.508" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
 <rectangle x1="-1.016" y1="-0.635" x2="-0.508" y2="0.635" layer="51" rot="R180"/>
 </package>
+<package name="0603-CAP">
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<wire x1="0" y1="0.027940625" x2="0" y2="-0.027940625" width="0.381" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -2850,6 +2866,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CAP-11625"/>
 <attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.1UF-25V(+80/-20%)(0603)" prefix="C" uservalue="yes">
+<description>CAP-00810&lt;br&gt;
+Ceramic&lt;br&gt;
+Standard decoupling cap</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00810"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3682,7 +3720,7 @@ grid 2.54 mm</description>
 <part name="Q3" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q1" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="150"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7000" value="2N7000"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
@@ -3694,7 +3732,7 @@ grid 2.54 mm</description>
 <part name="Q10" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q8" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="2.4"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2K"/>
@@ -3726,7 +3764,7 @@ grid 2.54 mm</description>
 <part name="Q13" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q14" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="150"/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q15" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7000" value="2N7000"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
@@ -3738,7 +3776,7 @@ grid 2.54 mm</description>
 <part name="Q19" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q20" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="2.4"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2K"/>
@@ -3759,6 +3797,12 @@ grid 2.54 mm</description>
 <part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="&quot;" value="82nF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="&quot;" value="82nF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.7"/>
+<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="R36" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.7"/>
+<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3835,6 +3879,9 @@ grid 2.54 mm</description>
 <instance part="TP2" gate="G$1" x="53.34" y="91.44"/>
 <instance part="R33" gate="G$1" x="139.7" y="152.4" rot="R180"/>
 <instance part="C7" gate="G$1" x="106.68" y="142.24"/>
+<instance part="C9" gate="G$1" x="86.36" y="63.5"/>
+<instance part="R35" gate="G$1" x="86.36" y="76.2" rot="R90"/>
+<instance part="GND13" gate="1" x="86.36" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -4073,6 +4120,11 @@ grid 2.54 mm</description>
 <wire x1="243.84" y1="88.9" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
 <label x="246.38" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="58.42" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$10" class="0">
 <segment>
@@ -4177,6 +4229,9 @@ grid 2.54 mm</description>
 <wire x1="182.88" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="48.26" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
 <junction x="198.12" y="142.24"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="81.28" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
+<junction x="86.36" y="83.82"/>
 </segment>
 <segment>
 <pinref part="X5" gate="-1" pin="KL"/>
@@ -4306,6 +4361,13 @@ grid 2.54 mm</description>
 <wire x1="144.78" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="68.58" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -4352,11 +4414,14 @@ grid 2.54 mm</description>
 <instance part="GND11" gate="1" x="218.44" y="78.74" rot="R90"/>
 <instance part="GND12" gate="1" x="198.12" y="33.02"/>
 <instance part="R30" gate="G$1" x="165.1" y="55.88"/>
-<instance part="V2" gate="&quot;" x="104.14" y="63.5"/>
+<instance part="V2" gate="&quot;" x="93.98" y="60.96"/>
 <instance part="R32" gate="R?" x="73.66" y="35.56" rot="R270"/>
 <instance part="TP1" gate="G$1" x="81.28" y="93.98"/>
 <instance part="R34" gate="G$1" x="167.64" y="157.48" rot="R180"/>
 <instance part="C8" gate="G$1" x="134.62" y="147.32"/>
+<instance part="C10" gate="G$1" x="114.3" y="68.58"/>
+<instance part="R36" gate="G$1" x="114.3" y="81.28" rot="R90"/>
+<instance part="GND14" gate="1" x="114.3" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -4440,6 +4505,11 @@ grid 2.54 mm</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="38.1" x2="198.12" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="63.5" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -4685,6 +4755,9 @@ grid 2.54 mm</description>
 <wire x1="210.82" y1="53.34" x2="226.06" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="53.34" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
 <junction x="226.06" y="147.32"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="86.36" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<junction x="114.3" y="88.9"/>
 </segment>
 </net>
 <net name="INR" class="0">
@@ -4697,15 +4770,15 @@ grid 2.54 mm</description>
 <net name="HMID" class="0">
 <segment>
 <pinref part="V2" gate="&quot;" pin="H3"/>
-<wire x1="104.14" y1="53.34" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<label x="104.14" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="93.98" y1="50.8" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<label x="93.98" y="48.26" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="HOUT" class="0">
 <segment>
 <pinref part="V2" gate="&quot;" pin="H1"/>
-<wire x1="104.14" y1="73.66" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<label x="104.14" y="76.2" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="93.98" y1="71.12" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
+<label x="93.98" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -4720,6 +4793,13 @@ grid 2.54 mm</description>
 <pinref part="Q18" gate="G$1" pin="G"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="73.66" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
