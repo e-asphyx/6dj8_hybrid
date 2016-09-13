@@ -3755,8 +3755,10 @@ grid 2.54 mm</description>
 <part name="R32" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="500"/>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
-<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
-<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10"/>
+<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="&quot;" value="82nF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="&quot;" value="82nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3832,6 +3834,7 @@ grid 2.54 mm</description>
 <instance part="R31" gate="R?" x="45.72" y="30.48" rot="R270"/>
 <instance part="TP2" gate="G$1" x="53.34" y="91.44"/>
 <instance part="R33" gate="G$1" x="139.7" y="152.4" rot="R180"/>
+<instance part="C7" gate="G$1" x="106.68" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -4109,11 +4112,15 @@ grid 2.54 mm</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="124.46" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="134.62" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <junction x="96.52" y="134.62"/>
 <wire x1="121.92" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="139.7" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
+<junction x="106.68" y="134.62"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -4121,6 +4128,10 @@ grid 2.54 mm</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="96.52" y1="147.32" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="147.32" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<junction x="96.52" y="149.86"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -4345,6 +4356,7 @@ grid 2.54 mm</description>
 <instance part="R32" gate="R?" x="73.66" y="35.56" rot="R270"/>
 <instance part="TP1" gate="G$1" x="81.28" y="93.98"/>
 <instance part="R34" gate="G$1" x="167.64" y="157.48" rot="R180"/>
+<instance part="C8" gate="G$1" x="134.62" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -4562,11 +4574,15 @@ grid 2.54 mm</description>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="129.54" x2="124.46" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="139.7" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="139.7" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
 <junction x="124.46" y="139.7"/>
 <wire x1="149.86" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="144.78" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<junction x="134.62" y="139.7"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -4574,6 +4590,10 @@ grid 2.54 mm</description>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="Q15" gate="G$1" pin="S"/>
 <wire x1="124.46" y1="152.4" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="152.4" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
+<junction x="124.46" y="154.94"/>
 </segment>
 </net>
 <net name="N$33" class="0">
