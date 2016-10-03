@@ -11138,6 +11138,8 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="U$10" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="GB1" library="my" deviceset="COPPER-BRIDGE" device=""/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="0.33"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11173,7 +11175,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="C17" gate="G$1" x="238.76" y="96.52"/>
 <instance part="C18" gate="G$1" x="254" y="96.52"/>
 <instance part="C21" gate="G$1" x="269.24" y="96.52"/>
-<instance part="C24" gate="G$1" x="276.86" y="134.62"/>
+<instance part="C24" gate="G$1" x="259.08" y="137.16"/>
 <instance part="U5" gate="G$1" x="335.28" y="144.78"/>
 <instance part="C25" gate="G$1" x="287.02" y="96.52"/>
 <instance part="R11" gate="G$1" x="335.28" y="127" rot="R90"/>
@@ -11198,8 +11200,8 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="C4" gate="G$1" x="58.42" y="154.94"/>
 <instance part="C6" gate="G$1" x="76.2" y="152.4"/>
 <instance part="L1" gate="G$1" x="43.18" y="172.72" rot="R90"/>
-<instance part="C2" gate="G$1" x="27.94" y="154.94"/>
-<instance part="SUPPLY1" gate="G$1" x="25.4" y="172.72" rot="R90"/>
+<instance part="C2" gate="G$1" x="15.24" y="154.94"/>
+<instance part="SUPPLY1" gate="G$1" x="12.7" y="172.72" rot="R90"/>
 <instance part="C20" gate="G$1" x="266.7" y="200.66"/>
 <instance part="C19" gate="G$1" x="266.7" y="218.44"/>
 <instance part="C22" gate="G$1" x="279.4" y="215.9"/>
@@ -11228,7 +11230,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="C29" gate="G$1" x="304.8" y="134.62"/>
 <instance part="SUPPLY3" gate="G$1" x="142.24" y="106.68" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="20.32" y="76.2" rot="R90"/>
-<instance part="U$1" gate="G$1" x="27.94" y="132.08"/>
+<instance part="U$1" gate="G$1" x="15.24" y="132.08"/>
 <instance part="U$2" gate="G$1" x="215.9" y="190.5"/>
 <instance part="U$3" gate="G$1" x="266.7" y="193.04"/>
 <instance part="U$4" gate="G$1" x="279.4" y="193.04"/>
@@ -11245,7 +11247,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="GND8" gate="G$1" x="223.52" y="88.9"/>
 <instance part="GND9" gate="G$1" x="254" y="88.9"/>
 <instance part="GND10" gate="G$1" x="287.02" y="88.9"/>
-<instance part="GND11" gate="G$1" x="276.86" y="119.38"/>
+<instance part="GND11" gate="G$1" x="259.08" y="119.38"/>
 <instance part="GND12" gate="G$1" x="317.5" y="119.38"/>
 <instance part="GND13" gate="G$1" x="335.28" y="119.38"/>
 <instance part="GND14" gate="G$1" x="363.22" y="119.38"/>
@@ -11254,6 +11256,8 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="GND17" gate="G$1" x="147.32" y="231.14" rot="R270"/>
 <instance part="U$10" gate="G$1" x="162.56" y="231.14" rot="R90"/>
 <instance part="GB1" gate="G$1" x="154.94" y="231.14"/>
+<instance part="R16" gate="G$1" x="25.4" y="172.72"/>
+<instance part="R17" gate="G$1" x="269.24" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -11318,12 +11322,12 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="-"/>
-<wire x1="276.86" y1="121.92" x2="276.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="121.92" x2="259.08" y2="127" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="-"/>
-<wire x1="276.86" y1="127" x2="276.86" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="127" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="129.54" x2="292.1" y2="127" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="127" x2="276.86" y2="127" width="0.1524" layer="91"/>
-<junction x="276.86" y="127"/>
+<wire x1="292.1" y1="127" x2="259.08" y2="127" width="0.1524" layer="91"/>
+<junction x="259.08" y="127"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="129.54" x2="304.8" y2="127" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="127" x2="292.1" y2="127" width="0.1524" layer="91"/>
@@ -11493,12 +11497,12 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="254" y1="99.06" x2="254" y2="106.68" width="0.1524" layer="91"/>
 <junction x="254" y="106.68"/>
 <wire x1="254" y1="106.68" x2="254" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="254" y1="144.78" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="254" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="276.86" y1="137.16" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
-<junction x="276.86" y="144.78"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<junction x="276.86" y="144.78"/>
+<wire x1="259.08" y1="139.7" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
+<junction x="259.08" y="144.78"/>
 </segment>
 </net>
 <net name="PUMPIN" class="1">
@@ -11738,12 +11742,12 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <net name="VCC" class="1">
 <segment>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="27.94" y1="157.48" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="172.72" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="172.72" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<junction x="27.94" y="172.72"/>
+<wire x1="15.24" y1="157.48" x2="15.24" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="172.72" x2="20.32" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="172.72" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
+<junction x="15.24" y="172.72"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="KL"/>
@@ -11852,11 +11856,11 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="58.42" y1="149.86" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
-<wire x1="27.94" y1="149.86" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="149.86" x2="15.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <junction x="58.42" y="139.7"/>
-<wire x1="27.94" y1="139.7" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
-<junction x="27.94" y="139.7"/>
+<wire x1="15.24" y1="139.7" x2="15.24" y2="134.62" width="0.1524" layer="91"/>
+<junction x="15.24" y="139.7"/>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
@@ -11890,6 +11894,20 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <segment>
 <pinref part="GB1" gate="G$1" pin="2"/>
 <pinref part="U$10" gate="G$1" pin="AGND"/>
+</segment>
+</net>
+<net name="N$9" class="1">
+<segment>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="172.72" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="144.78" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
