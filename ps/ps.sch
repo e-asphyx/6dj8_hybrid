@@ -2333,6 +2333,26 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
+<deviceset name="0.22UF-25V-10%(0603)" prefix="C" uservalue="yes">
+<description>CAP-07822</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07822" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="0.1UF-25V-5%(0603)" prefix="C" uservalue="yes">
 <description>CAP-08604</description>
 <gates>
@@ -11090,10 +11110,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="L1" library="my" deviceset="INDUCTOR" device="NR10050T-PTH-ADD" value="220u"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH4" value="470uF"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH4" value="470uF"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH4" value="470uF"/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
-<part name="C23" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
+<part name="C23" library="SparkFun-Capacitors" deviceset="0.22UF-25V-10%(0603)" device="" value="0.22uF"/>
 <part name="LOGO1" library="my" deviceset="LOGO-MANTIS" device=""/>
 <part name="X1" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -11114,7 +11131,6 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="U$3" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$4" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$5" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -11140,6 +11156,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GB1" library="my" deviceset="COPPER-BRIDGE" device=""/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="0.33"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1"/>
+<part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11202,10 +11219,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="L1" gate="G$1" x="43.18" y="172.72" rot="R90"/>
 <instance part="C2" gate="G$1" x="15.24" y="154.94"/>
 <instance part="SUPPLY1" gate="G$1" x="12.7" y="172.72" rot="R90"/>
-<instance part="C20" gate="G$1" x="266.7" y="200.66"/>
-<instance part="C19" gate="G$1" x="266.7" y="218.44"/>
-<instance part="C22" gate="G$1" x="279.4" y="215.9"/>
-<instance part="C23" gate="G$1" x="279.4" y="198.12"/>
+<instance part="C23" gate="G$1" x="279.4" y="187.96"/>
 <instance part="LOGO1" gate="G$1" x="175.26" y="43.18"/>
 <instance part="X1" gate="-1" x="25.4" y="213.36"/>
 <instance part="X1" gate="-2" x="25.4" y="208.28"/>
@@ -11232,8 +11246,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="SUPPLY4" gate="G$1" x="20.32" y="76.2" rot="R90"/>
 <instance part="U$1" gate="G$1" x="15.24" y="132.08"/>
 <instance part="U$2" gate="G$1" x="215.9" y="190.5"/>
-<instance part="U$3" gate="G$1" x="266.7" y="193.04"/>
-<instance part="U$4" gate="G$1" x="279.4" y="193.04"/>
+<instance part="U$4" gate="G$1" x="279.4" y="180.34"/>
 <instance part="U$5" gate="G$1" x="33.02" y="208.28" rot="R90"/>
 <instance part="U$6" gate="G$1" x="68.58" y="208.28" rot="R90"/>
 <instance part="U$7" gate="G$1" x="109.22" y="226.06" rot="R90"/>
@@ -11258,6 +11271,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="GB1" gate="G$1" x="154.94" y="231.14"/>
 <instance part="R16" gate="G$1" x="25.4" y="172.72"/>
 <instance part="R17" gate="G$1" x="269.24" y="144.78"/>
+<instance part="R18" gate="G$1" x="279.4" y="200.66" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11613,21 +11627,13 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="251.46" y1="190.5" x2="251.46" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="251.46" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="208.28" x2="266.7" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="208.28" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
 <junction x="251.46" y="208.28"/>
 <label x="289.56" y="208.28" size="1.778" layer="95" xref="yes"/>
-<pinref part="C20" gate="G$1" pin="+"/>
-<wire x1="266.7" y1="208.28" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="208.28" x2="289.56" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="203.2" x2="266.7" y2="208.28" width="0.1524" layer="91"/>
-<junction x="266.7" y="208.28"/>
-<pinref part="C19" gate="G$1" pin="-"/>
-<wire x1="266.7" y1="208.28" x2="266.7" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="208.28" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
 <junction x="279.4" y="208.28"/>
-<pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="208.28" x2="279.4" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="208.28" x2="279.4" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-2" pin="KL"/>
@@ -11722,16 +11728,6 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="V+"/>
 <wire x1="238.76" y1="215.9" x2="238.76" y2="218.44" width="0.1524" layer="91"/>
 <label x="238.76" y="218.44" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="220.98" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="+"/>
-<wire x1="279.4" y1="223.52" x2="266.7" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="223.52" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="223.52" x2="266.7" y2="226.06" width="0.1524" layer="91"/>
-<junction x="266.7" y="223.52"/>
-<label x="266.7" y="226.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-5" pin="KL"/>
@@ -11868,12 +11864,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="-"/>
-<pinref part="U$3" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="U$4" gate="G$1" pin="AGND"/>
+<wire x1="279.4" y1="182.88" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="KL"/>
@@ -11908,6 +11901,13 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="144.78" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="1">
+<segment>
+<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="195.58" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
