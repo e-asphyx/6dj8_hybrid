@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3783,8 +3783,8 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.61k"/>
 <part name="Q9" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q6" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
 <part name="Q11" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q12" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q10" library="transistor-npn" deviceset="BC547*" device=""/>
@@ -3827,8 +3827,8 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.61k"/>
 <part name="Q21" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q18" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
-<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
+<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
+<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
 <part name="Q23" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q24" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="Q22" library="transistor-npn" deviceset="BC547*" device=""/>
@@ -3853,10 +3853,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="Q8" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
 <part name="Q7" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q20" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
+<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
 <part name="Q19" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="680"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
