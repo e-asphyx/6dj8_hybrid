@@ -955,383 +955,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="DPAK">
-<wire x1="3.2766" y1="2.4654" x2="3.277" y2="-3.729" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-3.729" x2="-3.277" y2="-3.729" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-3.729" x2="-3.2766" y2="2.4654" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="2.465" x2="3.2774" y2="2.4646" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="2.567" x2="-2.5654" y2="3.2782" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="3.2782" x2="-2.1082" y2="3.7354" width="0.2032" layer="51"/>
-<wire x1="-2.1082" y1="3.7354" x2="2.1082" y2="3.7354" width="0.2032" layer="51"/>
-<wire x1="2.1082" y1="3.7354" x2="2.5654" y2="3.2782" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="3.2782" x2="2.5654" y2="2.567" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="2.567" x2="-2.5654" y2="2.567" width="0.2032" layer="51"/>
-<rectangle x1="-2.7178" y1="-6.7262" x2="-1.8542" y2="-3.8306" layer="51"/>
-<rectangle x1="1.8542" y1="-6.7262" x2="2.7178" y2="-3.8306" layer="51"/>
-<rectangle x1="-0.4318" y1="-4.5926" x2="0.4318" y2="-3.8306" layer="21"/>
-<smd name="1" x="-2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
-<smd name="3" x="2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
-<smd name="4" x="0" y="1.588" dx="4.826" dy="5.715" layer="1"/>
-<text x="-3.683" y="-3.702" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-3.702" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<polygon width="0.1998" layer="51">
-<vertex x="-2.5654" y="2.567"/>
-<vertex x="-2.5654" y="3.2782"/>
-<vertex x="-2.1082" y="3.7354"/>
-<vertex x="2.1082" y="3.7354"/>
-<vertex x="2.5654" y="3.2782"/>
-<vertex x="2.5654" y="2.567"/>
-</polygon>
-</package>
-<package name="POWERPAK1212-8">
-<description>Vishay PowerPAK 1212-8 single device package&lt;br&gt;
-High-power, low thermal resistance package.</description>
-<smd name="S3" x="-1.4224" y="-0.3302" dx="0.9906" dy="0.4064" layer="1"/>
-<smd name="S2" x="-1.4224" y="0.3302" dx="0.9906" dy="0.4064" layer="1"/>
-<smd name="S1" x="-1.4224" y="0.9906" dx="0.9906" dy="0.4064" layer="1"/>
-<smd name="G" x="-1.4224" y="-0.9906" dx="0.9906" dy="0.4064" layer="1"/>
-<smd name="D2" x="1.5494" y="0.3302" dx="0.762" dy="0.4064" layer="1"/>
-<smd name="D1" x="1.5494" y="0.9906" dx="0.762" dy="0.4064" layer="1"/>
-<smd name="D3" x="1.5494" y="-0.3302" dx="0.762" dy="0.4064" layer="1"/>
-<smd name="D4" x="1.5494" y="-0.9906" dx="0.762" dy="0.4064" layer="1"/>
-<smd name="DPAD" x="0.5842" y="0" dx="1.7272" dy="2.2352" layer="1"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.35" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.4" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.35" width="0.127" layer="21"/>
-<text x="-1.143" y="0.508" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-1.143" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
-</package>
-<package name="SO08">
-<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
-<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
-<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
-<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
-<text x="-1.27" y="-0.635" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-1.27" y="0" size="0.4064" layer="25">&gt;NAME</text>
-<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
-<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
-<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
-<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
-<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
-<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
-<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
-<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
-</package>
-<package name="SOT323">
-<wire x1="1.1224" y1="0.6604" x2="1.1224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.1224" y1="-0.6604" x2="-1.1224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.1224" y1="-0.6604" x2="-1.1224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.1224" y1="0.6604" x2="1.1224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.1" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.1" y1="0.7" x2="-1.1" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.1" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.65" y="-0.925" dx="0.7" dy="0.7" layer="1"/>
-<smd name="2" x="0.65" y="-0.925" dx="0.7" dy="0.7" layer="1"/>
-<smd name="3" x="0" y="0.925" dx="0.7" dy="0.7" layer="1"/>
-<text x="-1.1255" y="1.878" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.116" y="1.3095" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO220V">
-<description>&lt;b&gt;TO 220 Vertical&lt;/b&gt; Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="3.048" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="-0.381" x2="-4.191" y2="-1.27" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="4.191" y1="-1.27" x2="5.08" y2="-0.381" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="-4.191" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.191" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
-<rectangle x1="-5.08" y1="2.032" x2="5.08" y2="3.048" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-2.794" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.302" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TO-92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
-<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO-263/D2PAK">
-<wire x1="5" y1="-1" x2="5" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="5" y1="-3.4" x2="-5" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-3.4" x2="-5" y2="-1" width="0.2032" layer="21"/>
-<rectangle x1="-3.27" y1="-7.6" x2="-1.81" y2="-3.4" layer="51"/>
-<rectangle x1="-0.73" y1="-4.9" x2="0.73" y2="-3.4" layer="21"/>
-<smd name="1" x="-2.54" y="-7.045" dx="2.32" dy="3.81" layer="1"/>
-<smd name="3" x="2.54" y="-7.045" dx="2.32" dy="3.81" layer="1"/>
-<smd name="2" x="0" y="4.125" dx="11" dy="9.65" layer="1"/>
-<text x="-4.064" y="-1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-4.064" y="-2.794" size="0.4064" layer="27">&gt;VALUE</text>
-<polygon width="0.1998" layer="51">
-<vertex x="-5" y="6.25"/>
-<vertex x="-5" y="7"/>
-<vertex x="-1" y="7.65"/>
-<vertex x="1" y="7.65"/>
-<vertex x="5" y="7"/>
-<vertex x="5" y="6.25"/>
-</polygon>
-<wire x1="-5" y1="6.25" x2="-5" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="5" y1="-0.65" x2="5" y2="6.25" width="0.127" layer="51"/>
-<wire x1="-1.81" y1="-3.4" x2="-1.81" y2="-7.6" width="0.127" layer="51"/>
-<wire x1="-1.81" y1="-7.6" x2="-3.27" y2="-7.6" width="0.127" layer="51"/>
-<wire x1="-3.27" y1="-7.6" x2="-3.27" y2="-3.4" width="0.127" layer="51"/>
-<wire x1="-3.27" y1="-3.4" x2="-1.81" y2="-3.4" width="0.127" layer="51"/>
-<wire x1="1.81" y1="-3.4" x2="1.81" y2="-7.6" width="0.127" layer="51"/>
-<wire x1="1.81" y1="-7.6" x2="3.27" y2="-7.6" width="0.127" layer="51"/>
-<wire x1="3.27" y1="-7.6" x2="3.27" y2="-3.4" width="0.127" layer="51"/>
-<wire x1="3.27" y1="-3.4" x2="1.81" y2="-3.4" width="0.127" layer="51"/>
-<rectangle x1="1.81" y1="-7.6" x2="3.27" y2="-3.4" layer="51"/>
-<rectangle x1="-3.27" y1="-4.9" x2="-1.81" y2="-3.4" layer="21"/>
-<rectangle x1="1.81" y1="-4.9" x2="3.27" y2="-3.4" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MOSFET-NCHANNEL-1">
-<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
-<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
-<rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
-<rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
-<wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="0" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0.254" x2="-1.778" y2="0" width="0.3048" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-0.889" y2="-0.254" width="0.3048" layer="94"/>
-<wire x1="-0.889" y1="-0.254" x2="-0.889" y2="0" width="0.3048" layer="94"/>
-<wire x1="-0.889" y1="0" x2="-1.143" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="1.905" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.635" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.762" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.762" x2="3.429" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.762" x2="1.651" y2="0.508" width="0.1524" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
-<text x="-5.08" y="-1.27" size="0.8128" layer="93">G</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOSFET-NCHANNEL" prefix="Q">
-<description>&lt;B&gt;Common NMOSFET Parts&lt;/b&gt;&lt;p&gt;
-&lt;table border = "1"&gt;
-&lt;tr&gt;&lt;th&gt;MFG P/N&lt;/th&gt;&lt;th&gt;Store ID&lt;/th&gt;&lt;th&gt;Prod ID&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;FDD8780&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TRANS-09984&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;SI7820DN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TRANS-11055&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;FDS6630A&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;IC-08089&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;2N7002PW&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TRANS-11151&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;FQP30N06L&lt;/td&gt;  &lt;td&gt;COM-10213&lt;/td&gt;&lt;td&gt;TRANS-10060&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;BSS123LT1G&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TRANS-08345&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;BSS138&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;TRANS-00830&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;BS170&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;2N7000&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET-NCHANNEL-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="FDD8780" package="DPAK">
-<connects>
-<connect gate="G$1" pin="D" pad="4"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-09984"/>
-</technology>
-</technologies>
-</device>
-<device name="SI7820DN" package="POWERPAK1212-8">
-<connects>
-<connect gate="G$1" pin="D" pad="D1 D2 D3 D4 DPAD"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S1 S2 S3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11055"/>
-</technology>
-</technologies>
-</device>
-<device name="FDS6630A" package="SO08">
-<connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-08089"/>
-</technology>
-</technologies>
-</device>
-<device name="2N7002PW" package="SOT323">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11151"/>
-</technology>
-</technologies>
-</device>
-<device name="FQP30N06L" package="TO220V">
-<connects>
-<connect gate="G$1" pin="D" pad="2"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-10060"/>
-</technology>
-</technologies>
-</device>
-<device name="BS170" package="TO-92">
-<connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2N7000" package="TO-92">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="BSS138" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-00830" constant="no"/>
-<attribute name="VALUE" value="200mA/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="BSS123LT1G" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08345" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PSMN7R0" package="TO-263/D2PAK">
-<connects>
-<connect gate="G$1" pin="D" pad="2"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-12437" constant="no"/>
-<attribute name="VALUE" value="100A/100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="AO3404A" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRAN-12988" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="linear">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
@@ -3769,25 +3392,24 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="V1" library="tubes" deviceset="6922-P" device="" value="6922"/>
-<part name="Q2" library="my" deviceset="BC556" device=""/>
-<part name="Q4" library="my" deviceset="BC556" device=""/>
+<part name="Q2" library="my" deviceset="BC556" device="" value="BC560C"/>
+<part name="Q4" library="my" deviceset="BC556" device="" value="BC560C"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="16k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
-<part name="Q3" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="Q1" library="transistor-npn" deviceset="BC547*" device=""/>
+<part name="Q3" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="Q1" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="150"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7000" value="2N7000"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.61k"/>
-<part name="Q9" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="Q6" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
-<part name="Q11" library="transistor-power" deviceset="IRF540" device=""/>
-<part name="Q12" library="transistor-power" deviceset="IRF540" device=""/>
-<part name="Q10" library="transistor-npn" deviceset="BC547*" device=""/>
+<part name="Q9" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="Q6" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33"/>
+<part name="Q11" library="transistor-power" deviceset="IRF540" device="" value="IRF510"/>
+<part name="Q12" library="transistor-power" deviceset="IRF540" device="" value="IRF510"/>
+<part name="Q10" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="2.4"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3801,7 +3423,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="C3" library="capacitor-wima" deviceset="C" device="5/5" value="1uF"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="549"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="562"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="&quot;" value="1.0uF"/>
@@ -3813,25 +3435,24 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="X5" library="con-wago-508" deviceset="W237-3E" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="V2" library="tubes" deviceset="6922-P" device="" value="6922"/>
-<part name="Q14" library="my" deviceset="BC556" device=""/>
-<part name="Q16" library="my" deviceset="BC556" device=""/>
+<part name="Q14" library="my" deviceset="BC556" device="" value="BC560C"/>
+<part name="Q16" library="my" deviceset="BC556" device="" value="BC560C"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="16k"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120"/>
-<part name="Q15" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="Q13" library="transistor-npn" deviceset="BC547*" device=""/>
+<part name="Q15" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="Q13" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="150"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q17" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7000" value="2N7000"/>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.61k"/>
-<part name="Q21" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="Q18" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
-<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
-<part name="Q23" library="transistor-power" deviceset="IRF540" device=""/>
-<part name="Q24" library="transistor-power" deviceset="IRF540" device=""/>
-<part name="Q22" library="transistor-npn" deviceset="BC547*" device=""/>
+<part name="Q21" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="Q18" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33"/>
+<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33"/>
+<part name="Q23" library="transistor-power" deviceset="IRF540" device="" value="IRF510"/>
+<part name="Q24" library="transistor-power" deviceset="IRF540" device="" value="IRF510"/>
+<part name="Q22" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
 <part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/2W" value="2.4"/>
 <part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3844,7 +3465,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="C5" library="capacitor-wima" deviceset="C" device="5/5" value="1uF"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="549"/>
+<part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="562"/>
 <part name="LOGO1" library="my" deviceset="LOGO-MANTIS" device=""/>
 <part name="R5" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="500"/>
 <part name="R23" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="500"/>
@@ -3852,18 +3473,20 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
-<part name="Q8" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
-<part name="Q7" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="Q20" library="transistor-npn" deviceset="BC547*" device=""/>
-<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="56"/>
-<part name="Q19" library="transistor-npn" deviceset="BC547*" device=""/>
+<part name="Q8" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33"/>
+<part name="Q7" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="Q20" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33"/>
+<part name="Q19" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="680"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Retired" deviceset="JUMPER-2" device="PTH"/>
 <part name="R38" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="680"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP2" library="SparkFun-Retired" deviceset="JUMPER-2" device="PTH"/>
+<part name="Q5" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
+<part name="Q17" library="transistor-npn" deviceset="BC547*" device="" value="BC550C"/>
 </parts>
 <sheets>
 <sheet>
@@ -3893,7 +3516,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="R4" gate="G$1" x="45.72" y="45.72" rot="R90"/>
 <instance part="R1" gate="G$1" x="30.48" y="81.28" rot="R90"/>
 <instance part="GND1" gate="1" x="30.48" y="91.44" rot="R180"/>
-<instance part="Q5" gate="G$1" x="96.52" y="154.94"/>
 <instance part="R9" gate="G$1" x="96.52" y="144.78" rot="R90"/>
 <instance part="Q9" gate="G$1" x="137.16" y="119.38"/>
 <instance part="Q6" gate="G$1" x="99.06" y="119.38" rot="MR0"/>
@@ -3944,6 +3566,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="R37" gate="G$1" x="71.12" y="116.84" rot="R270"/>
 <instance part="GND13" gate="1" x="83.82" y="116.84"/>
 <instance part="JP1" gate="A" x="76.2" y="124.46"/>
+<instance part="Q5" gate="G$1" x="93.98" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -3996,12 +3619,12 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <pinref part="V1" gate="B" pin="TA"/>
 <wire x1="58.42" y1="139.7" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="58.42" y1="129.54" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="129.54" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
 <junction x="58.42" y="129.54"/>
+<pinref part="Q5" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4038,9 +3661,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <label x="45.72" y="170.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="96.52" y1="160.02" x2="96.52" y2="162.56" width="0.1524" layer="91"/>
 <label x="96.52" y="162.56" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-5" pin="KL"/>
@@ -4226,12 +3849,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="Q9" gate="G$1" pin="E"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="114.3" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -4451,6 +4068,12 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="71.12" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -4474,7 +4097,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="R22" gate="G$1" x="73.66" y="50.8" rot="R90"/>
 <instance part="R19" gate="G$1" x="58.42" y="86.36" rot="R90"/>
 <instance part="GND8" gate="1" x="58.42" y="96.52" rot="R180"/>
-<instance part="Q17" gate="G$1" x="124.46" y="160.02"/>
 <instance part="R27" gate="G$1" x="124.46" y="149.86" rot="R90"/>
 <instance part="Q21" gate="G$1" x="162.56" y="124.46"/>
 <instance part="Q18" gate="G$1" x="127" y="124.46" rot="MR0"/>
@@ -4506,6 +4128,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="R38" gate="G$1" x="99.06" y="121.92" rot="R270"/>
 <instance part="GND14" gate="1" x="111.76" y="121.92"/>
 <instance part="JP2" gate="A" x="104.14" y="129.54"/>
+<instance part="Q17" gate="G$1" x="121.92" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -4523,9 +4146,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <label x="73.66" y="175.26" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q17" gate="G$1" pin="D"/>
 <wire x1="124.46" y1="165.1" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
 <label x="124.46" y="167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="Q17" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="VEE" class="1">
@@ -4649,12 +4272,12 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="Q16" gate="G$1" pin="C"/>
 <pinref part="V2" gate="B" pin="TA"/>
 <wire x1="86.36" y1="144.78" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="Q17" gate="G$1" pin="G"/>
 <wire x1="86.36" y1="134.62" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="134.62" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 <junction x="86.36" y="134.62"/>
+<pinref part="Q17" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -4876,12 +4499,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="187.96" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="Q17" gate="G$1" pin="S"/>
-<pinref part="R27" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
@@ -4905,6 +4522,12 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="99.06" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="Q17" gate="G$1" pin="E"/>
 </segment>
 </net>
 </nets>
